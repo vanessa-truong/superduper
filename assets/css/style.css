@@ -1,0 +1,152 @@
+/* Generals */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:'Maven Pro';
+    src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Gilda Display';
+    src: url(../fonts/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+
+
+
+
+/* HEADER */
+
+header{
+    background-color: #333;
+    color: #ffffff;
+
+}
+
+header h2{
+    font-family: 'Maven Pro';
+    font-size: 20px;
+    display: block;
+    width: 80px;
+    padding-left: 20px;
+}
+
+header article{
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to top right, #8507e1, #8507e1, #194894, #3dc8d5, #3dc8d5);
+    margin-bottom: 315px;
+    margin-top: 315px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+header article:hover{
+    background-image: linear-gradient(#3ec8d5, #3dc8d5, #194894, #8507e1, #8507e1);
+}
+
+header article h1{
+    font-family: 'Gilda Display';
+    font-size: 50px;
+    
+}
+
+header article p{
+    font-family: 'Maven Pro';
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+header nav:nth-of-type(1) a{
+    font-family: 'Maven Pro';
+    display: block;
+    color: #cccccc;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+
+
+
+header nav{
+    padding-bottom: 15px;
+}
+
+
+
+/* MAIN */
+
+main section article h1{
+    font-family: 'Gilda Display';
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+
+main section article{
+    width: 450px;
+    padding-top: 300px;
+    padding-left: 80px;
+}
+
+main section article p:nth-of-type(1){
+    font-family: 'Maven Pro';
+    padding-top: 40px;
+}
+
+main section article p:nth-of-type(2){
+    font-family: 'Maven Pro';
+    padding-top:20px;
+    padding-bottom: 600px;
+}
+
+main img{
+    width: 1000px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+main div h1{
+    padding-left: 110px;
+    font-family: 'Gilda Display';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main div p{
+    font-family: 'Maven Pro';
+    padding-left: 110px;
+    padding-top: 15px;
+    padding-bottom: 300px;
+}
+
+
+
+/* Footer */
+
+footer article h1:nth-of-type(1){
+    font-family: 'Gilda Display';
+    padding-left: 110px;
+    font-size: 50px;
+}
+
+footer article p:nth-of-type(1){
+    font-family: 'Maven Pro';
+    padding-left: 110px;
+    padding-top: 30px;
+    padding-bottom: 500px;
+}
+
